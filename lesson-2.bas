@@ -83,3 +83,33 @@ Sub Range_A1_D6()
    Range("A1:D6").Select
 
 End Sub
+
+'Exercício 1-Suponha que sua posição atual na planilha 1 
+'(Plan 1 é a célula A 2–. Elabore uma sub rotina a qual 
+'deverá utilizar a propriedade Offset para determinar como 
+'nova posição a célula C 5. Lembrando que a propriedade Offset
+'é utilizada com a propriedade Range e serve para especificar um novo
+'local para manipulação
+
+Sub Offset()
+   Range("A2").Offset(3, 2).Select
+End Sub
+
+'Exercício 02–Suponha que sua referência atual na planilha 1 
+'(Plan 1 é a célula E 8 – Elabore uma sub rotina responsável 
+'por acessar a célula B 3 utilizando Range e Offset
+
+Sub Offset_2()
+   Range("E8").Offset(-5, -3).Select
+End Sub
+
+'Exercício 03–Suponha que sua célula atual na planilha 1 
+'(Plan 1 é a célula A2 – Elabore uma sub rotina que utilize 
+'resize para selecionar as células A2 a C2
+
+Sub Resize()
+   Range("A2").Resize(,3).Select
+End Sub
+
+
+
