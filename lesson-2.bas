@@ -60,7 +60,7 @@ MsgBox ("O maior valor eh " & maior & Chr(13) & "O menor valor eh " & menor)
 
 End Sub
 
-
+'Add new value to cell
 
 Sub SetValor()
 
@@ -68,8 +68,18 @@ Worksheets("AlunoCursoFaculdade").Range("A1").Value = 1223
 
 End Sub
 
+'Obter número de pastas de trabalho abertas
+
 Sub ContadorBooks()
 
    MsgBox Workbooks.Count
    
+End Sub
+
+'Criar botão e ativar seleção
+
+Sub Range_A1_D6()
+
+   Range("A1:D6").Select
+
 End Sub
