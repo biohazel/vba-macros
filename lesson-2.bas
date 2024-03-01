@@ -111,46 +111,8 @@ Sub Resize()
    Range("A2").Resize(,3).Select
 End Sub
 
-Sub testandoVBA()
-    MsgBox "Testando VBA!"
-End Sub
-
-'Não pode ter espaço no nome da sub, não começar com número, não ter pontos finais, não ter caracteres especiais
 
 
-Sub GetValor()
-    v_x = Worksheets("Planilha1").Range("A1").Value
-    MsgBox v_x
-End Sub
-
-Sub SetValor()
-    Worksheets("Planilha1").Range("A1").Value = 123.45
-End Sub
-
-Sub ContadorBooks()
-    MsgBox Workbooks.Count
-End Sub
-
-Sub LimpaCelula()
-    Range("A1").ClearContents
-End Sub
-
-'Copia o valor da célula A1 para a célula B1
-Sub CopiaCelula()
-    Worksheets("Planilha1").Activate
-    Range("A1").Copy Range("B1")
-End Sub
-
-'Criar novas pastas de trabalho
-Sub AdicionarWorkbooks()
-    Workbooks.Add
-End Sub
-
-'Seleciona células no range A1 a D6
-
-Sub Range_A1_D6()
-    Range("A1:D6").Select
-End Sub
 
 
 
