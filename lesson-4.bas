@@ -32,3 +32,35 @@ Sub testeEscopo()
    MsgBox msg
 End Sub
 
+
+Sub testeEscopo()
+   Static contador As Integer
+   Dim msg As String
+   contador = contador + 1
+   msg = "Número de execuções: " & contador
+   MsgBox msg
+End Sub
+
+'Se colocar a variável na primeira linha do módulo ele é global praquele módulo
+'Variáveis sem escopo declarado é local - dentro da sub
+'O primeiro valor armazenado é null
+
+
+ Sub AddVariaveis()
+
+   Dim APrimeiraDecima As Integer
+   Dim BPrimeiraDecima As Integer
+   APrimeiraDecima = 10
+   BPrimeiraDecima = 20
+   
+   Worksheets(1).Range("A1:A10").Value = APrimeiraDecima
+   Worksheets(1).Range("B1:B10").Value = BPrimeiraDecima
+   
+End Sub
+
+
+Sub ApagarTodasAsCelulas()
+    ThisWorkbook.Sheets("Planilha1").Cells.ClearContents
+End Sub
+
+'Double considera números reais (inclui decimais)
