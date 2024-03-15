@@ -38,3 +38,7 @@ Constante são declaradas com const, e não Dim mais
 
 Se colocar a variável na primeira linha do módulo ele é global praquele módulo
 Variáveis sem escopo declarado é local - dentro da sub
+Truncamento = descarte de caracteres que passaram o tamanho
+Criar máscara no user form conseguimos limitar o mínimo de caracteres necessários
+
+Lembrar que variant aceita qualquer valor
