@@ -1,0 +1,3 @@
+# VBA Macros for Microinformatics Programming
+
+Welcome to the GitHub repository for practicing VBA (Visual Basic for Applications) macros, a key component of the "Programming in Microinformatics" course. This repository is designed to be a collaborative space where students can share, discover, and improve VBA macros tailored to the needs of microinformatics programming. Whether you are looking to automate tasks in Microsoft Excel, create dynamic reports, or manage data more effectively, you'll find resources here to enhance your learning and practical application of VBA.
